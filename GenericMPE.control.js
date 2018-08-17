@@ -1,7 +1,7 @@
 
 loadAPI(1);
 
-host.defineController("Generic", "Generic MPE", "1.0", "54292f1f-4f26-4c6d-aa07-d7763e65d8a6");
+host.defineController("Generic", "Generic MPE", "1.0", "18367e28-98fc-4671-8d4d-31d85b624488");
 host.defineMidiPorts(1, 1);
 
 function init()
