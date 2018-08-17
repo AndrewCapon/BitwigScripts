@@ -17,18 +17,7 @@ function init()
    {
       var pb = parseInt(range);
       noteInput.setUseExpressiveMidi(true, 0, pb);
-      sendPitchBendRangeRPN(1, pb);
    });
-
-   // Set POLY ON mode with 15 MPE voices
-   sendChannelController(0, 127, 15);
-
-   // Set up pitch bend sensitivity to 48 semitones
-   sendPitchBendRangeRPN(1, 48);
-}
-
-function sendPitchBendRangeRPN(channel, range)
-{
 }
 
 function onMidi(status, data1, data2)
