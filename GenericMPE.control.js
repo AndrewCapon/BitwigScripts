@@ -3,7 +3,6 @@ loadAPI(1);
 
 host.defineController("Generic", "Generic MPE", "1.0", "54292f1f-4f26-4c6d-aa07-d7763e65d8a6");
 host.defineMidiPorts(1, 1);
-host.addDeviceNameBasedDiscoveryPair(["Seaboard Block"], ["Seaboard Block"]);
 
 function init()
 {
